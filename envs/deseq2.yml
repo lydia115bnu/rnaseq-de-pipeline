@@ -1,0 +1,22 @@
+# envs/deseq2.yml — R + DESeq2 + tximport
+# Install: mamba env create -f envs/deseq2.yml
+name: deseq2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.3.2
+  - bioconductor-deseq2=1.42.0
+  - bioconductor-tximport=1.30.0
+  - bioconductor-tximeta=1.20.0
+  - bioconductor-apeglm=1.24.0    # lfcShrink type='apeglm'
+  - bioconductor-ashr=2.2.54      # lfcShrink type='ashr' (recommended)
+  - r-ggplot2=3.5.0
+  - r-pheatmap=1.0.12
+  - r-rcolorbrewer=1.1_3
+  - r-ggrepel=0.9.5
+  - r-optparse=1.7.4
+  - r-dplyr=1.1.4
+  - r-readr=2.1.5
+  - r-tibble=3.2.1

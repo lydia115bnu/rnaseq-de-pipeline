@@ -1,0 +1,15 @@
+# envs/rnaseq.yml — QC and quantification tools
+# Install: mamba env create -f envs/rnaseq.yml
+name: rnaseq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - salmon=1.10.3
+  - fastqc=0.12.1
+  - fastp=0.23.4
+  - multiqc=1.21
+  - pigz=2.8            # parallel gzip for faster compression
+  - samtools=1.19.2     # useful for BAM inspection if needed later
+  - python=3.11

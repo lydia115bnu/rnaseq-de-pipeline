@@ -1,0 +1,9 @@
+sample,fastq_1,fastq_2,condition,batch
+SRR1039508,data/reads/SRR1039508_1.fastq.gz,data/reads/SRR1039508_2.fastq.gz,untreated,N61311
+SRR1039509,data/reads/SRR1039509_1.fastq.gz,data/reads/SRR1039509_2.fastq.gz,dexamethasone,N61311
+SRR1039510,data/reads/SRR1039510_1.fastq.gz,data/reads/SRR1039510_2.fastq.gz,untreated,N052611
+SRR1039511,data/reads/SRR1039511_1.fastq.gz,data/reads/SRR1039511_2.fastq.gz,dexamethasone,N052611
+SRR1039512,data/reads/SRR1039512_1.fastq.gz,data/reads/SRR1039512_2.fastq.gz,untreated,N080611
+SRR1039513,data/reads/SRR1039513_1.fastq.gz,data/reads/SRR1039513_2.fastq.gz,dexamethasone,N080611
+SRR1039516,data/reads/SRR1039516_1.fastq.gz,data/reads/SRR1039516_2.fastq.gz,untreated,N061011
+SRR1039517,data/reads/SRR1039517_1.fastq.gz,data/reads/SRR1039517_2.fastq.gz,dexamethasone,N061011

@@ -1,0 +1,3 @@
+sample,fastq_1,fastq_2,condition,batch
+SRR1039508,data/reads/SRR1039508_1.fastq.gz,data/reads/SRR1039508_2.fastq.gz,untreated,N61311
+SRR1039509,data/reads/SRR1039509_1.fastq.gz,data/reads/SRR1039509_2.fastq.gz,dexamethasone,N61311

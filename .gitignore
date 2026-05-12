@@ -1,0 +1,50 @@
+# Large sequencing files — never commit
+data/reads/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.sam
+
+# Nextflow work directory and cache
+work/
+.nextflow/
+.nextflow.log*
+
+# Results (intermediate — commit only final tables)
+results/fastqc/
+results/fastp/
+results/salmon/raw/
+results/multiqc/
+
+# Keep final DE results and enrichment tables
+!results/deseq2/*.tsv
+!results/deseq2/*.csv
+!results/deseq2/*.pdf
+!results/enrichment/*.tsv
+
+# Reference genome and index (download via pipeline)
+data/genome/
+data/index/
+
+# R/Python artifacts
+.Rhistory
+.RData
+*.rds
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# Conda build artifacts
+.conda/
+
+# macOS
+.DS_Store
+
+# Logs (captured per-run, not versioned)
+logs/
+benchmarks/
+
+# nf-core fetchngs downloads
+samplesheet.nf.csv
